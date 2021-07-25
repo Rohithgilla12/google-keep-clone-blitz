@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@prisma/client": "~2.17",
+    "@tailwindcss/forms": "0.3.3",
     "autoprefixer": "10",
     "blitz": "0.38.5",
     "final-form": "4.20.1",
