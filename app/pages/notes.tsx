@@ -1,7 +1,7 @@
 import createNote from "app/mutations/createNote"
 import deleteNote from "app/mutations/deleteNote"
 import getUserNotes from "app/queries/getUserNotes"
-import { BlitzPage, useParam, useQuery, invoke } from "blitz"
+import { BlitzPage, useQuery, invoke } from "blitz"
 import React, { Suspense, useState } from "react"
 
 const NoteMain = () => {
